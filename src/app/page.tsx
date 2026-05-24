@@ -1,7 +1,12 @@
+import Image from "next/image";
 const Homepage = () => {
   return (
-    <div>Homepage</div>
-  )
-}
+    <div className="">
+      <div className="relative aspect-[]">
+        <Image src="/featured.png" alt="Featured Product" />
+      </div>
+    </div>
+  );
+};
 
-export default Homepage
+export default Homepage;
