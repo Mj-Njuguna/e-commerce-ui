@@ -5,7 +5,7 @@ import { Home, ShoppingBasket } from "lucide-react";
 import { Bell } from "lucide-react";
 const Navbar = () => {
   return (
-    <nav className="w-full flex item-center justify-between border-gray-200 pb-4">
+    <nav className="w-full flex item-center justify-between border-b border-gray-200 pb-4">
       {/*left*/}
       <Link href="/" className="flex items-center">
         <Image
